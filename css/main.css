@@ -1,0 +1,72 @@
+/*==========================*/
+/*======MAIN LAYOUT=========*/
+/*==========================*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+
+}
+
+#page-container {
+	background-color: red;
+	width: 100%;
+	min-height: 100%;
+	margin: auto;
+	position: relative;
+	bottom: 0;
+}
+
+#content-wrap {
+	height: 100%;
+	bottom: 0;
+}
+
+#header {
+	background-color: orange;
+	height: 130px;
+	margin-top: 0;
+}
+
+#main-content {
+	background-color: blue;
+	width: 70%;
+	display: inline-block;
+	min-height: 573px;
+}
+
+#sidebar1 {
+	background-color: pink;
+	float: left;
+}
+
+#sidebar2 {
+	background-color: purple;
+	float: right;
+}
+
+#sidebar1, #sidebar2  {
+	width: 15%;
+	display: inline-block;
+	min-height: 573px;
+}
+
+#footer {
+	background-color: yellow;
+	height: 70px;
+	width: 100%;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	clear: both;
+}
