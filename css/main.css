@@ -70,3 +70,108 @@ h1 {
 	left: 0;
 	clear: both;
 }
+
+/***************************
+PAGE: ABOUT US
+***************************/
+
+#listOfProfiles {
+	padding: 0;
+	margin: 0 auto;
+	width: 750px;
+	height: 100%;
+	display: block;
+}
+
+#title-history {
+	background-color: rgba(144, 89, 76, 0.4);
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 750px;
+}
+
+#title-history h2 {
+	margin: 0 0 -18px 0;
+	padding: 20px 20px;
+	color: white;
+	font-size: 3.0em;
+	font-weight: bold;
+}
+
+#listOfProfiles section {
+	background-color: rgba(144, 89, 76, 0.4);
+}
+
+.profile ul {
+	display: block;
+	width: 705px;
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.profile ul li {
+	margin: 20px 20px;
+	height: 340px;
+	display: inline-block;
+}
+
+.profile ul li img {
+	margin: 15px 15px;
+}
+
+.adjRight {
+	float: right;
+}
+
+.adjRight img {
+	margin: 15px 0 0 0;
+}
+
+.adjLeft {
+	float: left;
+}
+
+.name {
+	margin: 0 0 15px 0;
+	padding: 0;
+	text-align: center;
+}
+
+.bio {
+	text-align: justify;
+	width: 325px;
+	padding: 0;
+	color: black;
+}
+
+.bioParagraph {
+	white-space: initial;
+	overflow: scroll;
+	text-align: justify;
+	width: 325px;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+}
+
+
+img.photo {
+	border-radius: 30%;
+	margin: auto;
+}
+
+#history {
+	background-size: 750px 810px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+
+
+
+
+
+
