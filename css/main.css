@@ -32,7 +32,6 @@ h1 {
 
 #header {
 	background-color: orange;
-	height: 200px;
 	margin-top: 0;
 }
 
@@ -41,8 +40,9 @@ h1 {
 	display: inline-block;
 	min-height: 573px;
 	position: relative;
-	padding-bottom: 200px;
 	background-color: lightgrey;
+	margin-top: 37.25px;
+	margin-bottom: 37.25px;
 }
 
 .index-sidebar {
@@ -54,7 +54,7 @@ h1 {
 	float: left;
 	margin-right: 5%;
 	height: 124em;
-	background-color: purple;
+	background-color: black;
 }
 
 #sidebar2 {
@@ -62,10 +62,6 @@ h1 {
 	float: right;
 /*	margin-left: 5%;
 */}
-
-	height: 124em;
-	background-color: lightblue;
-}
 
 #sidebar1, #sidebar2  {
 	width: 10%;
@@ -80,8 +76,6 @@ h1 {
 	float: right;
 	clear:both;
 }
-
-
 
 
 /*==========================*/
@@ -265,6 +259,7 @@ h1 {
     background-color: #333;
     text-align: center;
     margin: 0;
+    clear: both;
 
 }
 

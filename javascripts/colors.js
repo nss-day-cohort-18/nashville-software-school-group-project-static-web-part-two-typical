@@ -46,7 +46,7 @@ var mainContentHeight = mainContent.clientHeight;
 var heightMinusFooterAndMargin = (mainContentHeight - 125 -74.5);
 var mainContentHeightRemainder = (heightMinusFooterAndMargin % 10); 
 
-var sidebarHeight = (heightMinusFooterAndMargin - mainContentHeightRemainder);
+var sidebarHeight = (mainContentHeight - 105);
 console.log("Main content height: ", mainContentHeight, "Main content remainder: ", mainContentHeightRemainder, "Sidebar height: ", sidebarHeight);
 
 //Create counter to keep track of stacking
