@@ -52,25 +52,20 @@ h1 {
 #sidebar1 {
 	background-color: black;
 	float: left;
-<<<<<<< HEAD
 	margin-right: 5%;
-=======
 	height: 124em;
 	background-color: purple;
->>>>>>> f4ddac9ac7e4c992dcfeed8cb53a98d1388d1e60
 }
 
 #sidebar2 {
 	background-color: black;
 	float: right;
-<<<<<<< HEAD
 /*	margin-left: 5%;
 */}
-=======
+
 	height: 124em;
 	background-color: lightblue;
 }
->>>>>>> f4ddac9ac7e4c992dcfeed8cb53a98d1388d1e60
 
 #sidebar1, #sidebar2  {
 	width: 10%;
