@@ -419,30 +419,6 @@ fieldset {
 
 	
 
-=======
-ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    height: 130px;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    width: 100%;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-li a:active {
-    font-size:30pt;
-}
-
 /***********************
 PRODUCT PAGE
 ***********************/
@@ -532,7 +508,6 @@ FOOTER
 	padding: 10px;
 }
 
-
 /***************************
 PAGE: ABOUT US
 ***************************/
@@ -546,7 +521,7 @@ PAGE: ABOUT US
 }
 
 #title-history {
-	background-color: rgba(144, 89, 76, 0.4);
+	background-color: rgba(255, 0, 0, 0.35);
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -558,18 +533,17 @@ PAGE: ABOUT US
 	padding: 20px 20px;
 	color: white;
 	font-size: 3.0em;
-	font-weight: bold;
 }
 
 #listOfProfiles section {
-	background-color: rgba(144, 89, 76, 0.4);
+	background-color: rgba(255, 0, 0, 0.35);
 }
 
 .profile ul {
 	display: block;
 	width: 705px;
 	padding: 0;
-	margin: 0 auto;
+	margin: 10px auto 0 auto;
 	list-style: none;
 }
 
@@ -605,7 +579,7 @@ PAGE: ABOUT US
 	text-align: justify;
 	width: 325px;
 	padding: 0;
-	color: black;
+	color: white;
 }
 
 .bioParagraph {
@@ -619,22 +593,21 @@ PAGE: ABOUT US
 }
 
 
-img.photo {
+.about-photo {
 	border-radius: 30%;
-	margin: auto;
+	background-color: white;
+	width: 250px;
+	max-height: 250px;
+	margin-right: 5px;
 }
+
+
 
 #history {
 	background-size: 750px 810px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center top;
-}
-
-.social-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
 }
 
 /*Color schemes for all pages
@@ -704,7 +677,4 @@ img.photo {
 	color: #AB6AD6;
 	color: #FFFB19;
 }*/
-
-
-
 
