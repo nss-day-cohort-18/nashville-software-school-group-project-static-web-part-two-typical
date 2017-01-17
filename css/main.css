@@ -247,29 +247,35 @@ h1 {
 */
  
  #contact-header, #nav-ul {
+ 	clear: both;
  	list-style: none;
 	height: 130px;
     background-color: #333;
     text-align: center;
     margin: 0;
 
+
 }
 
 #nav-ul, li {
+	clear: both
 	line-height: inherit;
 	height: inherit;
 	display: inline-block;
+	color: white;
 
 }
 
 #nav-ul, a {
-	color: white;
 	font-family: cursive;
 	font-weight: 100;
 	text-decoration: none;
 	display: block;
 	transition: .3s background-color;
 	padding: 50px;
+	background-color: #333;
+	color: white;
+	text-align: center;
 }
 
 a#contact-a:hover {
@@ -292,11 +298,11 @@ a#home-a:hover {
 }*/
 
 /*CSS for contact us page 
-////////////////////////////////////////////////////////////////*/
+///////////////////////////////////////////////////////////////////////////////////*/
 
-#con-main-content {
+/*/*#con-main-content {
 	background-color: #126E0C;;
-}
+}*/
 
 /** {
 	margin:0;
@@ -311,7 +317,7 @@ a#home-a:hover {
 	text-rendering:optimizeLegibility;
 }*/
 
-body#contact-page {
+/*body#contact-page {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
 	font-size: 12px;
@@ -335,6 +341,7 @@ Helvetica, Arial, sans-serif; }
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
+	text-align: center;
 }
 
 #contact h3 {
@@ -417,8 +424,6 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
-	
 
 /***********************
 PRODUCT PAGE
