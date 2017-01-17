@@ -54,31 +54,34 @@
 			</div>
 				<div id="con-main-content">
 					
-					<fieldset>
-						<legend>Basic Info</legend>
-							<form action="send-email.php" method="post">
-							First Name:
-							<input type="text" name="firstname" size="25" maxlength="40">
-							<br><br>
-							Middle Initial:
-							<input type="text" name="MidInitial" size="3" maxlength="7">
-							<br><br>
-							Last Name:
-							<input type="text" name="LastName" size="25" maxlength="40">
-							<br><br>
-							Address: 
-							<input type="text" name="HomeAddress" size="25" maxlength="40">
-							<br><br>				
-							Email Address:
-							<input class="email" type="email" name="Email" size="25" maxlength="40">
-							<br><br>
-							Cell Phone number:
-							<input type="text" name="Phone" size="25" maxlength="40">
-							Linkedin profile:
-							<input type="text" name="Linkedin" size="25" maxlength="40">
-					</fieldset>
+					<div class="container">  
+						  <form id="contact" action="" method="post">
+						    <h3>Quick Contact</h3>
+						    <h4>Tell us about yourself and just how many of our beautiful blocks you want</h4>
+						    <fieldset>
+						      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+						    </fieldset>
+						    <fieldset>
+						      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+						    </fieldset>
+						    <fieldset>
+						      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+						    </fieldset>
+						    <fieldset>
+						      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+						    </fieldset>
+						    <fieldset>
+						      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+						    </fieldset>
+						    <fieldset>
+						      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+						    </fieldset>
+						  </form>
+						 
+						  
+						</div>
 					<section>
-						<img src="Bob-the-builder.jpg" style="width: 300px; height: 200px;" >
+						<img src="img/Bob-the-builder.jpg" style="width: 300px; height: 200px;" >
 					</section>
 
 
