@@ -45,14 +45,22 @@ h1 {
 	background-color: lightgrey;
 }
 
+.index-sidebar {
+
+}
+
 #sidebar1 {
 	background-color: black;
 	float: left;
+	height: 124em;
+	background-color: purple;
 }
 
 #sidebar2 {
 	background-color: black;
 	float: right;
+	height: 124em;
+	background-color: lightblue;
 }
 
 #sidebar1, #sidebar2  {
@@ -274,13 +282,13 @@ a#contact-a:hover {
  	background-color: green;
 }
 a#about-a:hover {
-	background-color: blue;
-}
-a#product-a:hover {
 	background-color: red;
 }
-a#home-a:hover {
+a#product-a:hover {
 	background-color: yellow;
+}
+a#home-a:hover {
+	background-color: blue;
 
 }
 
@@ -467,7 +475,7 @@ body#contact-page {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	line-height: 30px;
 	color: #777;
-	background: #0B9C17;
+	background: white;
 }
 
 .container {
@@ -484,7 +492,7 @@ Helvetica, Arial, sans-serif; }
 #contact {
 	background:#F9F9F9;
 	padding:25px;
-	margin:50px 0;
+
 	padding-right: 4em;
 }
 
@@ -557,7 +565,7 @@ fieldset {
 }
 
 #bob {
-	margin-left: 30%;
+	margin-left: 25%;
 }
 
 /*************
@@ -566,8 +574,7 @@ PRODUCT PAGE
 
 #cardGrid {
 	align-content: auto;
-	width: 70%;
-	margin-left: 17%;
+	margin: 2% 5% 0 8%;
 }
 
 #productCard0,
@@ -582,16 +589,16 @@ PRODUCT PAGE
 #productCard9,
 #productCard10,
 #productCard11 {
-	border: 5px solid black;
+	border: 3px solid black;
 	border-radius: 5px;
 	display: inline-block;
-	max-width: 150px;
+	max-width: 195px;
 	margin: 10px 10px 10px 20px;
 	vertical-align: top;
 	padding: 5px;
 	text-align: center;
-	height: 25em;
-	width: 18em;
+	height: 20em;
+	width: 25%;
 	margin-left: 1em;
 	background-color: white;
 }
@@ -622,7 +629,7 @@ input[type="button"] {
 	font-weight: bold;
 	border: 3px solid black;
 	background-color: white;
-	margin-left: 35%;
+	margin-left: 39%;
 }
 
 #button-label {
