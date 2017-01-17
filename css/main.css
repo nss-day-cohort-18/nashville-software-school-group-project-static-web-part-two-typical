@@ -58,7 +58,7 @@ h1 {
 #sidebar1, #sidebar2  {
 	width: 10%;
 	display: inline-block;
-	min-height: 573px;
+	min-height: 200px;
 }
 
 .sidebarBlockRight {
@@ -242,13 +242,11 @@ h1 {
 }
 
 
-
-
 /*CSS for the nav bar. NO TOUCHY!
 /////////////////////////////////////////////////////////////////
 */
  
- #contact-header, #nav-ul {
+#contact-header, #nav-ul {
  	list-style: none;
 	height: 130px;
     background-color: #333;
@@ -261,7 +259,8 @@ h1 {
 	line-height: inherit;
 	height: inherit;
 	display: inline-block;
-
+	color: white;
+	font-family: cursive;
 }
 
 #nav-ul, a {
@@ -285,8 +284,291 @@ a#product-a:hover {
 }
 a#home-a:hover {
 	background-color: yellow;
+	height: 125px;
+	width: 100%;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+
+
+
+
+/*==========================*/
+/*==========HOME============*/
+/*==========================*/
+
+.home-consistent {
+	margin-top: 74.5px;
+	margin-left: 74.5px;
+	margin-right: 0;
+	height: 74.5px;
+	width: 85%;
+}
+
+#home-title {
+	margin: auto;
+	margin-top: 74.5px;
+	width: 85%;
+	text-align: center;
+	border: 2px solid black;
+}
+
+#home-title {
+	font-size: 2em;
+}
+
+.logo-box {
+	margin-left: 113.75px;
+	margin-top: 74.5px;
+	margin-bottom: 74.5px;
+	height: 74.5px;
+	width: 74.5px;
+	border: 2px solid black;
+	background-color: black;
+}
+
+#logo-box2 {
+	margin: 74.5px auto;
+}
+
+.logo-mini {
+	display: inline-block;
+	margin: 10%;
+	border: 1px solid black;
+	width: 23.55px;
+	height: 23.55px;
+}
+
+.logo-top-left1 {
+	margin-right: 5%;
+	margin-bottom: 5%;
+	float: left;
+	background-color: red;
+}
+
+.logo-top-right1 {
+	margin-left: 5%;
+	margin-bottom: 5%;
+	float: right;
+	border-radius: 50px;
+	background-color: white;
+}
+
+.logo-bottom-left1 {
+	margin-right: 5%;
+	margin-top: 5%;
+	float: left;
+	display: block;
+	background-color: green;
+}
+
+.logo-bottom-right1 {
+	margin-left: 5%;
+	margin-top: 5%;
+	float: right;
+	background-color: blue;
+}
+
+#home-description-one {
+	height: 100%;
+	margin-right: 0;
+	text-align: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#about-red-div {
+	width: 70%;
+	margin: auto;
+	margin-top: 74.5px;
+	margin-bottom: 74.5px;
+	background-color: red;
+	border-radius: 15px;
+}
+
+.home-somethings {
+	display: inline-block;
+	width: 42.5%;
+	text-align: center;
+}
+
+#home-something-one {
+	border-right: 2px solid black;
+	margin-left: 74.5px;
+}
+
+#about-green-div {
+	width: 70%;
+	margin: auto;
+	margin-top: 74.5px;
+	margin-bottom: 74.5px;
+	background-color: green;
+	border-radius: 15px;
+}
+
+#home-something-two {
+	border-right: 2px solid black;
+	margin-left: 74.5px;
+}
+
+#home-description-two {
+	height: 100%;
+	text-align: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#logo-box3 {
+	float: right;
+	margin-right: 113.75px;
+}
+
+#logo-top-left2 {
+	margin-right: 5%;
+	margin-bottom: 5%;
+	float: left;
+	border-radius: 50px;
+	background-color: white;
+}
+
+#logo-top-right2 {
+	margin-left: 5%;
+	margin-bottom: 5%;
+	float: right;
+	background-color: blue;
+}
+
+#logo-bottom-left2 {
+	margin-right: 5%;
+	margin-top: 5%;
+	float: left;
+	display: block;
+	background-color: red;
+}
+
+#logo-bottom-right2 {
+	margin-left: 5%;
+	margin-top: 5%;
+	float: right;
+	background-color: green;
+}
+
+#about-blue-div {
+	width: 70%;
+	margin: auto;
+	margin-top: 74.5px;
+	margin-bottom: 74.5px;
+	background-color: blue;
+	border-radius: 15px;
+	clear: both;
+}
+
+/*CSS for the nav bar. NO TOUCHY!
+/////////////////////////////////////////////////////////////////
+*/
+ 
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 130px;
+    text-align: center;
+}
+
+
+li {
+    display: inline;
+    width: 100%;
+    
+ }
+ li a:hover {
+    background-color: #111;
+}
+
+li a:active {
+    font-size:30pt;
+
 
 }
+
+/*Color schemes for all pages
+////////////////////////////////////////////////////////////////////
+*/
+
+/*about page colors*/
+
+/*red colors {
+	color: #BF3F3F;
+	color: #F6BABA;
+	color: #FFFFFF;
+	color: #FF1414;
+	color: #C89C9C;
+	color: #CE4444;
+	color: #998989;
+	color: #FF7ABC;
+	color: #E81B82;
+	color: #E92F2F;
+}*/
+
+/*about page colors*/
+
+/*blue colors {
+	color: #567CF9;
+	color: #5454ED;
+	color: #9793FF;
+	color: #86E3DE;
+	color: #60EFFF;
+	color: #32ADFF;
+	color: #BFE0FC;
+	color: #F1F2FD;
+	color: #0F00EF;
+	color: #567CF9;
+}*/
+
+/*contact page color*/
+
+/*green colors {
+	color:#F1F2FD;
+	color:#0B9C17;
+	color:#2EEF7E;
+	color:#AFFCA0;
+	color:#9EBE8C;
+	color:#B8C2B7;
+	color:#CBF9CF;
+	color:#00F420;
+	color:#126E0C;
+	color:#FFFFFF;
+}*/
+/* home page colors*/
+
+/*all the colors ever {
+	color: #BF3F3F;
+	color: #F6BABA;
+	color: #FFFFFF;
+	color: #567CF9;
+	color: #5454ED;
+	color: #9793FF;
+	color: #F1F2FD;
+	color: #0B9C17;
+	color: #2EEF7E;
+	color: #ECF62C;
+	color: #FFDB28;
+	color: #FB28FF;
+	color: #923DCB;
+	color: #AB6AD6;
+	color: #FFFB19;
+}*
+
+
 /*a.active {
 	background-color: white;
 	color: black;
@@ -296,9 +578,6 @@ a#home-a:hover {
 /*CSS for contact us page 
 ////////////////////////////////////////////////////////////////*/
 
-#con-main-content {
-	background-color: #126E0C;;
-}
 
 /** {
 	margin:0;
@@ -319,7 +598,7 @@ body#contact-page {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:#0CF;
+	background:#0B9C17;
 }
 
 .container {
@@ -340,7 +619,7 @@ Helvetica, Arial, sans-serif; }
 }
 
 #contact h3 {
-	color: #F96;
+	color: #2EEF7E;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -420,11 +699,8 @@ fieldset {
  color:#888;
 }
 
-	
-
-/***********************
 PRODUCT PAGE
-***********************/
+**********************
 #cardGrid {
 	align-content: auto;
 	width: 70%;
@@ -492,9 +768,9 @@ input[type="button"] {
 	max-width: 60%;
 }
 
-/***********************
+**********************
 FOOTER
-***********************/
+**********************
 
 
 #footer {
@@ -509,6 +785,12 @@ FOOTER
 	text-align: center;
 }
 
+.social-icon {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+}
+
 #footer a {
 	display: inline;
 	padding: 10px;
@@ -521,9 +803,9 @@ FOOTER
 	background-color: white;
 }
 
-/***************************
+**************************
 PAGE: ABOUT US
-***************************/
+**************************
 
 #listOfProfiles {
 	padding: 0;
@@ -624,72 +906,4 @@ PAGE: ABOUT US
 	background-attachment: fixed;
 	background-position: center top;
 }
-
-/*Color schemes for all pages
-////////////////////////////////////////////////////////////////////
-*/
-
-/*product page colors*/
-
-/*red colors {
-	color: #BF3F3F;
-	color: #F6BABA;
-	color: #FFFFFF;
-	color: #FF1414;
-	color: #C89C9C;
-	color: #CE4444;
-	color: #998989;
-	color: #FF7ABC;
-	color: #E81B82;
-	color: #E92F2F;
-}*/
-
-/*about page colors*/
-
-/*blue colors {
-	color: #567CF9;
-	color: #5454ED;
-	color: #9793FF;
-	color: #86E3DE;
-	color: #60EFFF;
-	color: #32ADFF;
-	color: #BFE0FC;
-	color: #F1F2FD;
-	color: #0F00EF;
-	color: #567CF9;
-}*/
-
-/*contact page color*/
-
-/*green colors {
-	color:#F1F2FD;
-	color:#0B9C17;
-	color:#2EEF7E;
-	color:#AFFCA0;
-	color:#9EBE8C;
-	color:#B8C2B7;
-	color:#CBF9CF;
-	color:#00F420;
-	color:#126E0C;
-	color:#FFFFFF;
-}*/
-/* home page colors*/
-
-/*all the colors ever {
-	color: #BF3F3F;
-	color: #F6BABA;
-	color: #FFFFFF;
-	color: #567CF9;
-	color: #5454ED;
-	color: #9793FF;
-	color: #F1F2FD;
-	color: #0B9C17;
-	color: #2EEF7E;
-	color: #ECF62C;
-	color: #FFDB28;
-	color: #FB28FF;
-	color: #923DCB;
-	color: #AB6AD6;
-	color: #FFFB19;
-}*/
 
