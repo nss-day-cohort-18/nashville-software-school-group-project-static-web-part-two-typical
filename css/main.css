@@ -1,4 +1,4 @@
-s/*==========================*/
+/*==========================*/
 /*======MAIN LAYOUT=========*/
 /*==========================*/
 
@@ -6,6 +6,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -448,8 +449,8 @@ PRODUCT PAGE
 ***********************/
 #cardGrid {
 	align-content: auto;
-	width: 70%;
-	margin-left: 17%;
+	margin-left: auto;
+	text-align: center;
 }
 
 #productCard0,
@@ -472,7 +473,7 @@ PRODUCT PAGE
 	vertical-align: top;
 	padding: 5px;
 	text-align: center;
-	height: 25em;
+	height: 20em;
 	width: 18em;
 	margin-left: 1em;
 }
@@ -495,19 +496,19 @@ PRODUCT PAGE
 input[type="button"] {
 	padding-bottom: 3px;
 	border-radius: 5px;
-	color: blue;
-	position: auto;
+	color: navy;
 	width: 200px;
 	height: 50px;
 	font-size: 20px;
 	font-weight: bold;
 	border: none;
 	background-color: lightgrey;
-	margin-left: 35%;
+	margin: 10px auto 30px auto;
 }
 
 #button-label {
 	text-align: center;
+	font-size: .8em;
 }
 
 /***********************
@@ -516,19 +517,20 @@ FOOTER
 
 
 #footer {
-	border-top: 3px solid grey;
+	border-top: 3px solid lightgrey;
 	border-width: 50%;
  	font-size: 1em;
 	text-align: center;
- 	padding-top: 50px;
+ 	padding-top: 20px;
 	color: grey;
-	margin: 15px  15px 0;
+	margin: auto;
 	width: 100%;
 	text-align: center;
+	position: relative;
 }
 
 #footer a {
-	display: inline;
+	display: inline-block;
 	padding: 10px;
 }
 
