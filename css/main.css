@@ -492,6 +492,8 @@ input[type="button"] {
 #button-label {
 	text-align: center;
 	font-size: .8em;
+	font-family: fantasy;
+	max-width: 60%;
 }
 
 /***********************
@@ -506,7 +508,7 @@ FOOTER
 	text-align: center;
  	padding-top: 20px;
 	color: grey;
-	margin: auto;
+	margin: auto auto 30px auto;
 	width: 100%;
 	text-align: center;
 	position: relative;
