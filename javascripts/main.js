@@ -22,7 +22,7 @@ var blocks = [
 	name: "Foam Blocks",
 	description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
 	price: "$99",
-	URL: "img/foam-blocks",
+	URL: "img/foam-blocks.jpg",
 	},
 	{
 	name: "Kids Blocks",
