@@ -71,8 +71,9 @@ h1 {
 	clear: both;
 }
 
+<<<<<<< HEAD
 /***********************
-Product Page
+PRODUCT PAGE
 ***********************/
 #productCard0,
 #productCard1,
@@ -81,7 +82,11 @@ Product Page
 #productCard4,
 #productCard5,
 #productCard6,
-#productCard7 {
+#productCard7,
+#productCard8,
+#productCard9,
+#productCard10,
+#productCard11 {
 	display: inline-block;
 	max-width: 20%;
 	margin: 10px;
@@ -90,9 +95,82 @@ Product Page
 	padding: 5px;
 }
 
+/***********************
+FOOTER
+***********************/
+
+footer {
+	
+}
 
 
 
+=======
+/*Color schemes for all pages
+////////////////////////////////////////////////////////////////////
+*/
 
+/*about page colors*/
 
+/*red colors {
+	color: #BF3F3F;
+	color: #F6BABA;
+	color: #FFFFFF;
+	color: #FF1414;
+	color: #C89C9C;
+	color: #CE4444;
+	color: #998989;
+	color: #FF7ABC;
+	color: #E81B82;
+	color: #E92F2F;
+}*/
 
+/*about page colors*/
+
+/*blue colors {
+	color: #567CF9;
+	color: #5454ED;
+	color: #9793FF;
+	color: #86E3DE;
+	color: #60EFFF;
+	color: #32ADFF;
+	color: #BFE0FC;
+	color: #F1F2FD;
+	color: #0F00EF;
+	color: #567CF9;
+}*/
+
+/*contact page color*/
+
+/*green colors {
+	color:#F1F2FD;
+	color:#0B9C17;
+	color:#2EEF7E;
+	color:#AFFCA0;
+	color:#9EBE8C;
+	color:#B8C2B7;
+	color:#CBF9CF;
+	color:#00F420;
+	color:#126E0C;
+	color:#FFFFFF;
+}*/
+/* home page colors*/
+
+/*all the colors ever {
+	color: #BF3F3F;
+	color: #F6BABA;
+	color: #FFFFFF;
+	color: #567CF9;
+	color: #5454ED;
+	color: #9793FF;
+	color: #F1F2FD;
+	color: #0B9C17;
+	color: #2EEF7E;
+	color: #ECF62C;
+	color: #FFDB28;
+	color: #FB28FF;
+	color: #923DCB;
+	color: #AB6AD6;
+	color: #FFFB19;
+}*/
+>>>>>>> 30e898208d05c17b1552fbb2e0f0b636e572ee53
