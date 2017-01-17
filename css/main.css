@@ -47,12 +47,12 @@ h1 {
 }
 
 #sidebar1 {
-	background-color: pink;
+	background-color: black;
 	float: left;
 }
 
 #sidebar2 {
-	background-color: purple;
+	background-color: black;
 	float: right;
 }
 
@@ -60,6 +60,10 @@ h1 {
 	width: 10%;
 	display: inline-block;
 	min-height: 573px;
+}
+
+.sidebarBlockRight {
+	float: right;
 }
 
 
