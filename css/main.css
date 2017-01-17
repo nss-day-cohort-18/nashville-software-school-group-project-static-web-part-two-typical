@@ -267,6 +267,7 @@ h1 {
 	height: inherit;
 	display: inline-block;
 	color: white;
+	font-family: cursive;
 
 }
 
@@ -328,7 +329,7 @@ body#contact-page {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:#0CF;
+	background:#0B9C17;
 }
 
 .container {
@@ -350,7 +351,7 @@ Helvetica, Arial, sans-serif; }
 }
 
 #contact h3 {
-	color: #F96;
+	color: #2EEF7E;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -527,7 +528,7 @@ FOOTER
 	background-color: white;
 }
 
-/***************************
+**************************
 PAGE: ABOUT US
 **************************
 
@@ -631,7 +632,7 @@ PAGE: ABOUT US
 
 /*Color schemes for all pages
 ////////////////////////////////////////////////////////////////////
-*/
+
 
 /*product page colors*/
 
