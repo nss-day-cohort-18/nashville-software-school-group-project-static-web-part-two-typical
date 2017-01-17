@@ -38,13 +38,6 @@ function getRandomInt(min, max) {
   return (Math.floor(Math.random() * (max - min + 1)) + min);
 }
 
-
-//Creating two new arrays to set pre-determined 
-//sidebar widths and heights
-var sidebarBlockWidth = [21, 42, 63, 84, 105];
-var sidebarBlockHeight = [10, 20, 30, 40, 50];
-
-
 //Grabbing height of main content (includes padding)
 //Will determine height of sidebar based on \
 //main-content height. 
@@ -56,31 +49,34 @@ var mainContentHeightRemainder = (heightMinusFooterAndMargin % 10);
 var sidebarHeight = (heightMinusFooterAndMargin - mainContentHeightRemainder);
 console.log("Main content height: ", mainContentHeight, "Main content remainder: ", mainContentHeightRemainder, "Sidebar height: ", sidebarHeight);
 
+//Create counter to keep track of stacking
+//div height
+var counter = 0;
+
 var createSidebarBlocks = function(sidebarName) {
 
-	//Create counter to keep track of stacking
-    //div height
-    var counter = 0;
+	//grab parent element and setting height
+    var newSidebar = document.getElementById(sidebarName);
+    newSidebar.style.height = sidebarHeight + "px";
 
-    //Beginning of random div function
-	while (counter < sidebarHeight) {
+	//check to see if there is room to add divs
+	//Detrmining how much room I have to work with
+	var sidebarHeightRemainder = sidebarHeight - counter;
+    var divSpace = sidebarHeight - 60;
 
-    	//grab parent element and setting height
-        var newSidebar = document.getElementById(sidebarName);
-        newSidebar.style.height = sidebarHeight + "px";
-    
-    	//check to see if there is room to add divs
-    	//Detrmining how much room I have to work with
-    	var sidebarHeightRemainder = sidebarHeight - counter;
+	//If there is space for this random div.. 
+    for (counter; counter < divSpace; counter + divHeight) {
 
-    	//grabbing random number based on height array.length
-    	var divHeightIndex = getRandomInt(0, sidebarBlockHeight.length - 1);
-    	var divHeight = sidebarBlockHeight[divHeightIndex];
+        //Creating two new arrays to set pre-determined 
+        //sidebar widths and heights
+        var sidebarBlockWidth = [21, 42, 63, 84, 105];
+        var sidebarBlockHeight = [10, 20, 30, 40, 50];
 
-    	//If there is space for this random div.. 
-    	if ((sidebarHeightRemainder - divHeight) > 0) {
+        //grabbing random number based on height array.length
+        var divHeightIndex = getRandomInt(0, sidebarBlockHeight.length - 1);
+        var divHeight = sidebarBlockHeight[divHeightIndex];
+        if ((sidebarHeightRemainder - divHeight) > 0) {
 
-    		counter += divHeight;
             console.log(counter);
 
     		//get random width from width array
@@ -109,15 +105,19 @@ var createSidebarBlocks = function(sidebarName) {
 
     		//append block to sidebar
     		newSidebar.appendChild(sidebarDiv);
+
+            counter += divHeight;
+
         } else {
-            newFunction(sidebarName);
-	    }
-	} 
+            break;
+        }
+    }   
 }
 
 //call function
 createSidebarBlocks("sidebar1");
 console.log("function 1 is good")
+counter = 0;
 createSidebarBlocks("sidebar2");
 
 

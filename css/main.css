@@ -37,7 +37,7 @@ h1 {
 }
 
 #main-content {
-	width: 80%;
+	width: 70%;
 	display: inline-block;
 	min-height: 573px;
 	position: relative;
@@ -48,21 +48,27 @@ h1 {
 #sidebar1 {
 	background-color: black;
 	float: left;
+	margin-right: 5%;
 }
 
 #sidebar2 {
 	background-color: black;
 	float: right;
-}
+/*	margin-left: 5%;
+*/}
 
 #sidebar1, #sidebar2  {
 	width: 10%;
 	display: inline-block;
 	min-height: 200px;
+	top: 0;
+	margin-top: 74.5px;
+	padding-top: 30px;
 }
 
 .sidebarBlockRight {
 	float: right;
+	clear:both;
 }
 
 
@@ -799,6 +805,11 @@ FOOTER
 	display: inline;
 	padding: 10px;
 	background-color: white;
+	clear: both;
+}
+
+.footer {
+	clear: both;
 }
 
 .social-icon {
