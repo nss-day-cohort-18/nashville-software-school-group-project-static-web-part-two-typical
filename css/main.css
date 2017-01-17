@@ -64,7 +64,6 @@ h1 {
 
 
 
-
 /*==========================*/
 /*==========HOME============*/
 /*==========================*/
@@ -450,7 +449,7 @@ PRODUCT PAGE
 #cardGrid {
 	align-content: auto;
 	width: 70%;
-	margin-left: 15%;
+	margin-left: 17%;
 }
 
 #productCard0,
@@ -468,14 +467,14 @@ PRODUCT PAGE
 	border: 5px solid lightgrey;
 	border-radius: 5px;
 	display: inline-block;
-	max-width: 130px;
+	max-width: 150px;
 	margin: 10px 10px 10px 20px;
 	vertical-align: top;
 	padding: 5px;
 	text-align: center;
 	height: 25em;
 	width: 18em;
-	margin-left: 3em;
+	margin-left: 1em;
 }
 
 #productCard0 img,
@@ -504,7 +503,11 @@ input[type="button"] {
 	font-weight: bold;
 	border: none;
 	background-color: lightgrey;
-	margin-left: 40%;
+	margin-left: 35%;
+}
+
+#button-label {
+	text-align: center;
 }
 
 /***********************
@@ -512,28 +515,22 @@ FOOTER
 ***********************/
 
 
-#product-footer {
+#footer {
 	border-top: 3px solid grey;
- 	font-size: 0.75em;
+	border-width: 50%;
+ 	font-size: 1em;
 	text-align: center;
- 	clear: both;
  	padding-top: 50px;
 	color: grey;
-	margin-bottom: 40px;
-	margin-top: 40px;
-}
-
-#footer {
-	background-color: yellow;
-	height: 125px;
+	margin: 15px  15px 0;
 	width: 100%;
-	margin-bottom: 0;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	clear: both;
+	text-align: center;
 }
 
+#footer a {
+	display: inline;
+	padding: 10px;
+}
 
 
 /***************************
