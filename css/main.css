@@ -264,7 +264,6 @@ h1 {
 
 #nav-ul, a {
 	color: white;
-	font-family: cursive;
 	font-weight: 100;
 	text-decoration: none;
 	display: block;
@@ -517,7 +516,7 @@ FOOTER
 
 
 #footer {
-	border-top: 3px solid lightgrey;
+	border-top: 3px solid grey;
 	border-width: 50%;
  	font-size: 1em;
 	text-align: center;
