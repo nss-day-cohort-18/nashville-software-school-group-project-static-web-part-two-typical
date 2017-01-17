@@ -71,6 +71,36 @@ h1 {
 	clear: both;
 }
 
+/*CSS for the nav bar. NO TOUCHY!
+/////////////////////////////////////////////////////////////////
+*/
+ 
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 130px;
+    text-align: center;
+}
+
+
+li {
+    display: inline;
+    width: 100%;
+    
+ }
+ li a:hover {
+    background-color: #111;
+}
+
+li a:active {
+    font-size:30pt;
+
+
+}
+
 /*Color schemes for all pages
 ////////////////////////////////////////////////////////////////////
 */
