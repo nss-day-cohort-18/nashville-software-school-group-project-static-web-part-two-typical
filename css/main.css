@@ -70,3 +70,29 @@ h1 {
 	left: 0;
 	clear: both;
 }
+
+/***********************
+Product Page
+***********************/
+#productCard0,
+#productCard1,
+#productCard2,
+#productCard3,
+#productCard4,
+#productCard5,
+#productCard6,
+#productCard7 {
+	display: inline-block;
+	max-width: 20%;
+	margin: 10px;
+	margin-left: 30px;
+	vertical-align: top;
+	padding: 5px;
+}
+
+
+
+
+
+
+
