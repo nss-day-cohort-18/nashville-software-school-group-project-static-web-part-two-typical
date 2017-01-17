@@ -75,6 +75,10 @@ h1 {
 /***********************
 PRODUCT PAGE
 ***********************/
+#cardGrid {
+	align-content: auto;
+}
+
 #productCard0,
 #productCard1,
 #productCard2,
@@ -87,21 +91,60 @@ PRODUCT PAGE
 #productCard9,
 #productCard10,
 #productCard11 {
+	border: 5px solid lightgrey;
+	border-radius: 5px;
 	display: inline-block;
-	max-width: 20%;
+	max-width: 15%;
 	margin: 10px;
 	margin-left: 30px;
 	vertical-align: top;
 	padding: 5px;
+	text-align: center;
+	height: 25em;
+	width: 20em;
+	margin-left: 4em;
+}
+
+img {
+	max-width: 115px;
+}
+
+input[type="button"] {
+	padding-bottom: 3px;
+	border-radius: 5px;
+	color: blue;
+	position: auto;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	background-color: lightgrey;
+	margin-left: 50%;
 }
 
 /***********************
 FOOTER
 ***********************/
 
+
 footer {
-	
+	border-top: 3px solid grey;
+ 	font-size: 0.75em;
+	text-align: center;
+ 	clear: both;
+ 	padding-top: 50px;
+	color: grey;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
 
 
 
