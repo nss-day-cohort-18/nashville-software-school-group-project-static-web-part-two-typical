@@ -72,6 +72,10 @@ h1 {
 	clear: both;
 }
 
+.float-right {
+	float: right;
+}
+
 
 
 
@@ -162,6 +166,23 @@ h1 {
 	background-color: red;
 	border-radius: 15px;
 }
+
+#home-description-two {
+
+}
+
+.home-somethings {
+	display: inline-block;
+	width: 42.5%;
+	text-align: center;
+}
+
+#home-something-one {
+	border-right: 2px solid black;
+	margin-left: 74.5px;
+}
+
+
 
 
 
