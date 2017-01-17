@@ -45,14 +45,22 @@ h1 {
 	background-color: lightgrey;
 }
 
+.index-sidebar {
+
+}
+
 #sidebar1 {
 	background-color: black;
 	float: left;
+	height: 124em;
+	background-color: purple;
 }
 
 #sidebar2 {
 	background-color: black;
 	float: right;
+	height: 124em;
+	background-color: lightblue;
 }
 
 #sidebar1, #sidebar2  {
@@ -71,9 +79,6 @@ h1 {
 /*==========================*/
 /*==========HOME============*/
 /*==========================*/
-
-
-
 
 .home-consistent {
 	margin-top: 74.5px;
@@ -277,28 +282,19 @@ a#contact-a:hover {
  	background-color: green;
 }
 a#about-a:hover {
-	background-color: blue;
-}
-a#product-a:hover {
 	background-color: red;
 }
-a#home-a:hover {
+a#product-a:hover {
 	background-color: yellow;
-	height: 125px;
-	width: 100%;
-	margin-bottom: 0;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	clear: both;
+}
+a#home-a:hover {
+	background-color: blue;
+
 }
 
 .float-right {
 	float: right;
 }
-
-
-
 
 /*==========================*/
 /*==========HOME============*/
@@ -473,132 +469,13 @@ a#home-a:hover {
 /*CSS for the nav bar. NO TOUCHY!
 /////////////////////////////////////////////////////////////////
 */
- 
-ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    height: 130px;
-    text-align: center;
-}
 
-
-li {
-    display: inline;
-    width: 100%;
-    
- }
- li a:hover {
-    background-color: #111;
-}
-
-li a:active {
-    font-size:30pt;
-
-
-}
-
-/*Color schemes for all pages
-////////////////////////////////////////////////////////////////////
-*/
-
-/*about page colors*/
-
-/*red colors {
-	color: #BF3F3F;
-	color: #F6BABA;
-	color: #FFFFFF;
-	color: #FF1414;
-	color: #C89C9C;
-	color: #CE4444;
-	color: #998989;
-	color: #FF7ABC;
-	color: #E81B82;
-	color: #E92F2F;
-}*/
-
-/*about page colors*/
-
-/*blue colors {
-	color: #567CF9;
-	color: #5454ED;
-	color: #9793FF;
-	color: #86E3DE;
-	color: #60EFFF;
-	color: #32ADFF;
-	color: #BFE0FC;
-	color: #F1F2FD;
-	color: #0F00EF;
-	color: #567CF9;
-}*/
-
-/*contact page color*/
-
-/*green colors {
-	color:#F1F2FD;
-	color:#0B9C17;
-	color:#2EEF7E;
-	color:#AFFCA0;
-	color:#9EBE8C;
-	color:#B8C2B7;
-	color:#CBF9CF;
-	color:#00F420;
-	color:#126E0C;
-	color:#FFFFFF;
-}*/
-/* home page colors*/
-
-/*all the colors ever {
-	color: #BF3F3F;
-	color: #F6BABA;
-	color: #FFFFFF;
-	color: #567CF9;
-	color: #5454ED;
-	color: #9793FF;
-	color: #F1F2FD;
-	color: #0B9C17;
-	color: #2EEF7E;
-	color: #ECF62C;
-	color: #FFDB28;
-	color: #FB28FF;
-	color: #923DCB;
-	color: #AB6AD6;
-	color: #FFFB19;
-}*
-
-
-/*a.active {
-	background-color: white;
-	color: black;
-	cursor: default;
-}*/
-
-/*CSS for contact us page 
-////////////////////////////////////////////////////////////////*/
-
-
-/** {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-}*/
 
 body#contact-page {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-	color:#777;
-	background:#0B9C17;
+	line-height: 30px;
+	color: #777;
+	background: white;
 }
 
 .container {
@@ -615,7 +492,8 @@ Helvetica, Arial, sans-serif; }
 #contact {
 	background:#F9F9F9;
 	padding:25px;
-	margin:50px 0;
+
+	padding-right: 4em;
 }
 
 #contact h3 {
@@ -634,7 +512,6 @@ Helvetica, Arial, sans-serif; }
 fieldset {
 	border: medium none !important;
 	margin: 0 0 10px;
-	min-width: 100%;
 	padding: 0;
 	width: 100%;
 }
@@ -686,25 +563,18 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
-::-webkit-input-placeholder {
- color:#888;
-}
-:-moz-placeholder {
- color:#888;
-}
-::-moz-placeholder {
- color:#888;
-}
-:-ms-input-placeholder {
- color:#888;
+
+#bob {
+	margin-left: 25%;
 }
 
+/*************
 PRODUCT PAGE
-**********************
+*************/
+
 #cardGrid {
 	align-content: auto;
-	width: 70%;
-	margin-left: 17%;
+	margin: 2% 5% 0 8%;
 }
 
 #productCard0,
@@ -719,17 +589,18 @@ PRODUCT PAGE
 #productCard9,
 #productCard10,
 #productCard11 {
-	border: 5px solid lightgrey;
+	border: 3px solid black;
 	border-radius: 5px;
 	display: inline-block;
-	max-width: 150px;
+	max-width: 195px;
 	margin: 10px 10px 10px 20px;
 	vertical-align: top;
 	padding: 5px;
 	text-align: center;
-	height: 25em;
-	width: 18em;
+	height: 20em;
+	width: 25%;
 	margin-left: 1em;
+	background-color: white;
 }
 
 #productCard0 img,
@@ -756,9 +627,9 @@ input[type="button"] {
 	height: 50px;
 	font-size: 20px;
 	font-weight: bold;
-	border: none;
-	background-color: lightgrey;
-	margin-left: 35%;
+	border: 3px solid black;
+	background-color: white;
+	margin-left: 39%;
 }
 
 #button-label {
@@ -768,9 +639,9 @@ input[type="button"] {
 	max-width: 60%;
 }
 
-**********************
+/**********************
 FOOTER
-**********************
+**********************/
 
 
 #footer {
@@ -803,9 +674,9 @@ FOOTER
 	background-color: white;
 }
 
-**************************
+/**************
 PAGE: ABOUT US
-**************************
+***************/
 
 #listOfProfiles {
 	padding: 0;
