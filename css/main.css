@@ -18,7 +18,6 @@ h1 {
 }
 
 #page-container {
-	background-color: red;
 	width: 100%;
 	min-height: 100%;
 	margin: auto;
@@ -33,15 +32,17 @@ h1 {
 
 #header {
 	background-color: orange;
-	height: 130px;
+	height: 200px;
 	margin-top: 0;
 }
 
 #main-content {
-	background-color: blue;
-	width: 70%;
+	width: 80%;
 	display: inline-block;
 	min-height: 573px;
+	position: relative;
+	padding-bottom: 200px;
+	background-color: lightgrey;
 }
 
 #sidebar1 {
@@ -55,14 +56,14 @@ h1 {
 }
 
 #sidebar1, #sidebar2  {
-	width: 15%;
+	width: 10%;
 	display: inline-block;
 	min-height: 573px;
 }
 
 #footer {
 	background-color: yellow;
-	height: 70px;
+	height: 125px;
 	width: 100%;
 	margin-bottom: 0;
 	position: absolute;
@@ -70,3 +71,121 @@ h1 {
 	left: 0;
 	clear: both;
 }
+
+
+
+
+/*==========================*/
+/*==========HOME============*/
+/*==========================*/
+
+.home-consistent {
+	margin-top: 74.5px;
+	margin-left: 74.5px;
+	height: 74.5px;
+	width: 85%;
+}
+
+#home-title {
+	margin: auto;
+	margin-top: 74.5px;
+	width: 85%;
+	text-align: center;
+	border: 2px solid black;
+}
+
+#home-title {
+	font-size: 2em;
+}
+
+#logo-box {
+	margin-left: 113.75px;
+	margin-top: 74.5px;
+	margin-bottom: 74.5px;
+	height: 74.5px;
+	width: 74.5px;
+	border: 2px solid black;
+	background-color: black;
+}
+
+.logo-mini {
+	display: inline-block;
+	margin: 10%;
+	border: 1px solid black;
+	width: 23.55px;
+	height: 23.55px;
+}
+
+#logo-top-left {
+	margin-right: 5%;
+	margin-bottom: 5%;
+	float: left;
+	background-color: red;
+}
+
+#logo-top-right {
+	margin-left: 5%;
+	margin-bottom: 5%;
+	float: right;
+	border-radius: 50px;
+	background-color: white;
+}
+
+#logo-bottom-left {
+	margin-right: 5%;
+	margin-top: 5%;
+	float: left;
+	display: block;
+	background-color: green;
+}
+
+#logo-bottom-right {
+	margin-left: 5%;
+	margin-top: 5%;
+	float: right;
+	background-color: blue;
+}
+
+#home-description-one {
+	width: 85%;
+	height: 100%;
+	text-align: center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#about-red-div {
+	width: 70%;
+	margin: auto;
+	margin-top: 74.5px;
+	margin-bottom: 74.5px;
+	background-color: red;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
