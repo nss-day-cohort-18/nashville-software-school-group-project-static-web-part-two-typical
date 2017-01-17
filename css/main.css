@@ -247,28 +247,37 @@ h1 {
 */
  
  #contact-header, #nav-ul {
+ 	clear: both;
  	list-style: none;
 	height: 130px;
     background-color: #333;
     text-align: center;
     margin: 0;
 
+
 }
 
 #nav-ul, li {
+	clear: both
 	line-height: inherit;
 	height: inherit;
 	display: inline-block;
+	color: white;
 
 }
 
 #nav-ul, a {
-	color: white;
+
+=======
+
 	font-weight: 100;
 	text-decoration: none;
 	display: block;
 	transition: .3s background-color;
 	padding: 50px;
+	background-color: #333;
+	color: white;
+	text-align: center;
 }
 
 a#contact-a:hover {
@@ -291,11 +300,11 @@ a#home-a:hover {
 }*/
 
 /*CSS for contact us page 
-////////////////////////////////////////////////////////////////*/
+///////////////////////////////////////////////////////////////////////////////////*/
 
-#con-main-content {
+/*/*#con-main-content {
 	background-color: #126E0C;;
-}
+}*/
 
 /** {
 	margin:0;
@@ -310,7 +319,7 @@ a#home-a:hover {
 	text-rendering:optimizeLegibility;
 }*/
 
-body#contact-page {
+/*body#contact-page {
 	font-family:"Open Sans", Helvetica, Arial, sans-serif;
 	font-weight:300;
 	font-size: 12px;
@@ -334,6 +343,7 @@ Helvetica, Arial, sans-serif; }
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
+	text-align: center;
 }
 
 #contact h3 {
@@ -415,32 +425,6 @@ fieldset {
 }
 :-ms-input-placeholder {
  color:#888;
-}
-
-	
-
-=======
-ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    height: 130px;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    width: 100%;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-li a:active {
-    font-size:30pt;
 }
 
 /***********************
@@ -533,7 +517,6 @@ FOOTER
 	padding: 10px;
 }
 
-
 /***************************
 PAGE: ABOUT US
 ***************************/
@@ -547,7 +530,7 @@ PAGE: ABOUT US
 }
 
 #title-history {
-	background-color: rgba(144, 89, 76, 0.4);
+	background-color: rgba(255, 0, 0, 0.35);
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
@@ -559,18 +542,17 @@ PAGE: ABOUT US
 	padding: 20px 20px;
 	color: white;
 	font-size: 3.0em;
-	font-weight: bold;
 }
 
 #listOfProfiles section {
-	background-color: rgba(144, 89, 76, 0.4);
+	background-color: rgba(255, 0, 0, 0.35);
 }
 
 .profile ul {
 	display: block;
 	width: 705px;
 	padding: 0;
-	margin: 0 auto;
+	margin: 10px auto 0 auto;
 	list-style: none;
 }
 
@@ -606,7 +588,7 @@ PAGE: ABOUT US
 	text-align: justify;
 	width: 325px;
 	padding: 0;
-	color: black;
+	color: white;
 }
 
 .bioParagraph {
@@ -620,22 +602,21 @@ PAGE: ABOUT US
 }
 
 
-img.photo {
+.about-photo {
 	border-radius: 30%;
-	margin: auto;
+	background-color: white;
+	width: 250px;
+	max-height: 250px;
+	margin-right: 5px;
 }
+
+
 
 #history {
 	background-size: 750px 810px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center top;
-}
-
-.social-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
 }
 
 /*Color schemes for all pages
@@ -705,7 +686,4 @@ img.photo {
 	color: #AB6AD6;
 	color: #FFFB19;
 }*/
-
-
-
 
