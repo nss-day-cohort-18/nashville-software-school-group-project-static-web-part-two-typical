@@ -71,6 +71,41 @@ h1 {
 	clear: both;
 }
 
+<<<<<<< HEAD
+/***********************
+PRODUCT PAGE
+***********************/
+#productCard0,
+#productCard1,
+#productCard2,
+#productCard3,
+#productCard4,
+#productCard5,
+#productCard6,
+#productCard7,
+#productCard8,
+#productCard9,
+#productCard10,
+#productCard11 {
+	display: inline-block;
+	max-width: 20%;
+	margin: 10px;
+	margin-left: 30px;
+	vertical-align: top;
+	padding: 5px;
+}
+
+/***********************
+FOOTER
+***********************/
+
+footer {
+	
+}
+
+
+
+=======
 /*Color schemes for all pages
 ////////////////////////////////////////////////////////////////////
 */
@@ -138,3 +173,4 @@ h1 {
 	color: #AB6AD6;
 	color: #FFFB19;
 }*/
+>>>>>>> 30e898208d05c17b1552fbb2e0f0b636e572ee53
