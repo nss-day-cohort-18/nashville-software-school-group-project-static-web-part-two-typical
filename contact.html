@@ -1,51 +1,97 @@
 <!DOCTYPE html>
 <html id="whole-products-html">
-<head>
-  <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
+	<head id="contact-head">
 
-<body id="home-page">
-	<div id="page-container">
+		<header class="contact-header">
 
-		<div id="header">
-			<header>
-				<link rel="stylesheet" type="text/css" href="css/main.css">
-				<ul>
+		<div class="contact-div">
+			
+			
+			<ul id="nav-ul">
+				
+			  <link rel="stylesheet" type="text/css" href="css/main.css">
 
-					<h1>BAD ASS BLOCKS</h1>
-					<li id="nav"><a href="index.html">HOME</a></li>
+			  <title>Products</title>
 
-					<li id="nav"><a href="about.html">ABOUT</a></li>
+			  <meta charset="utf-8">
 
-					<li id="nav"><a href="contact.html">CONTACT</a></li>
+						<h1>BAD ASS BLOCKS</h1>
+						<li id="nav-home">
+							<a id="home-a" class="active" href="index.html">HOME</a>
+						</li>
 
-					<li id="nav"><a href="product.html">PRODUCTS</a></li>
+						<li id="nav-about">
+							<a id="about-a" href="about.html">ABOUT</a>
+						</li>
 
-				</ul>
-			</header>
+						<li id="nav-contact">
+							<a id="contact-a" class="active" href="contact.html">CONTACT</a>
+						</li>
+
+						<li id="nav-products">
+							<a id="product-a" href="product.html">PRODUCTS</a>
+						</li>
+						
+			</ul>
+
 		</div>
-		
-		<div id="content-wrap">
+
+		</header>
+
+	</head>
+
+	<body id="contact-page">
+		<div id="page-container">
+
+			
+			<div id="content-wrap">
 			<div id="sidebar1">
-				
+					
 			</div>
-		
+			
 			<div id="sidebar2">
-				
+					
 			</div>
-			<div id="main-content">
-				
-			</div>
-		</div>
+				<div id="con-main-content">
+					
+					<fieldset>
+						<legend>Basic Info</legend>
+							<form action="send-email.php" method="post">
+							First Name:
+							<input type="text" name="firstname" size="25" maxlength="40">
+							<br><br>
+							Middle Initial:
+							<input type="text" name="MidInitial" size="3" maxlength="7">
+							<br><br>
+							Last Name:
+							<input type="text" name="LastName" size="25" maxlength="40">
+							<br><br>
+							Address: 
+							<input type="text" name="HomeAddress" size="25" maxlength="40">
+							<br><br>				
+							Email Address:
+							<input class="email" type="email" name="Email" size="25" maxlength="40">
+							<br><br>
+							Cell Phone number:
+							<input type="text" name="Phone" size="25" maxlength="40">
+							Linkedin profile:
+							<input type="text" name="Linkedin" size="25" maxlength="40">
+					</fieldset>
+					<section>
+						<img src="Bob-the-builder.jpg" style="width: 300px; height: 200px;" >
+					</section>
 
-		<div id="footer">
-			<footer>
-				
-			</footer>
+
+				</div>
+			</div>
+
+			<div id="footer">
+				<footer>
+					
+				</footer>
+			</div>
 		</div>
-	</div>
-<script type="text/javascript" src="javascripts/main.js"></script>
-</body>
-</div>
+	<script type="text/javascript" src="javascripts/main.js"></script>
+	</body>
+
 </html>

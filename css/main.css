@@ -71,41 +71,104 @@ h1 {
 	clear: both;
 }
 
+
 /*CSS for the nav bar. NO TOUCHY!
 /////////////////////////////////////////////////////////////////
 */
  
-ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+ #contact-header, #nav-ul {
+ 	list-style: none;
+	height: 130px;
     background-color: #333;
-    height: 130px;
     text-align: center;
+    margin: 0;
+
+}
+
+#nav-ul, li {
+	line-height: inherit;
+	height: inherit;
+	display: inline-block;
+
+}
+
+#nav-ul, a {
+	color: white;
+	font-family: cursive;
+	text-decoration: none;
+	display: block;
+	transition: .3s background-color;
+	padding: 50px;
+}
+
+a#contact-a:hover {
+ 	background-color: green;
+}
+a#about-a:hover {
+	background-color: blue;
+}
+a#product-a:hover {
+	background-color: red;
+}
+a#home-a:hover {
+	background-color: yellow;
+
+}
+/*a.active {
+	background-color: white;
+	color: black;
+	cursor: default;
+}*/
+
+/*CSS for contact us page 
+////////////////////////////////////////////////////////////////*/
+
+#con-main-content {
+	background-color: #126E0C;;
 }
 
 
-li {
-    display: inline;
-    width: 100%;
-    
- }
- li a:hover {
-    background-color: #111;
+	
+
+/***********************
+PRODUCT PAGE
+***********************/
+#productCard0,
+#productCard1,
+#productCard2,
+#productCard3,
+#productCard4,
+#productCard5,
+#productCard6,
+#productCard7,
+#productCard8,
+#productCard9,
+#productCard10,
+#productCard11 {
+	display: inline-block;
+	max-width: 20%;
+	margin: 10px;
+	margin-left: 30px;
+	vertical-align: top;
+	padding: 5px;
 }
 
-li a:active {
-    font-size:30pt;
+/***********************
+FOOTER
+***********************/
 
-
+footer {
+	
 }
+
+
+
 
 /*Color schemes for all pages
 ////////////////////////////////////////////////////////////////////
 */
 
-/*about page colors*/
+/*product page colors*/
 
 /*red colors {
 	color: #BF3F3F;
