@@ -47,12 +47,12 @@ h1 {
 }
 
 #sidebar1 {
-	background-color: pink;
+	background-color: black;
 	float: left;
 }
 
 #sidebar2 {
-	background-color: purple;
+	background-color: black;
 	float: right;
 }
 
@@ -60,6 +60,10 @@ h1 {
 	width: 10%;
 	display: inline-block;
 	min-height: 573px;
+}
+
+.sidebarBlockRight {
+	float: right;
 }
 
 
@@ -514,6 +518,13 @@ FOOTER
 #footer a {
 	display: inline-block;
 	padding: 10px;
+	background-color: white;
+}
+
+.social-icon {
+	width: 50px;
+	height: 50px;
+	background-color: white;
 }
 
 /***************************
