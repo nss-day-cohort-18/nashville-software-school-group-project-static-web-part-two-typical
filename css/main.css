@@ -1,4 +1,4 @@
-/*==========================*/
+s/*==========================*/
 /*======MAIN LAYOUT=========*/
 /*==========================*/
 
@@ -449,6 +449,8 @@ PRODUCT PAGE
 ***********************/
 #cardGrid {
 	align-content: auto;
+	width: 70%;
+	margin-left: 15%;
 }
 
 #productCard0,
@@ -466,19 +468,29 @@ PRODUCT PAGE
 	border: 5px solid lightgrey;
 	border-radius: 5px;
 	display: inline-block;
-	max-width: 15%;
-	margin: 10px;
-	margin-left: 30px;
+	max-width: 130px;
+	margin: 10px 10px 10px 20px;
 	vertical-align: top;
 	padding: 5px;
 	text-align: center;
 	height: 25em;
-	width: 17em;
+	width: 18em;
 	margin-left: 3em;
 }
 
-img {
-	max-width: 115px;
+#productCard0 img,
+#productCard1 img,
+#productCard2 img,
+#productCard3 img,
+#productCard4 img,
+#productCard5 img,
+#productCard6 img,
+#productCard7 img,
+#productCard8 img,
+#productCard9 img,
+#productCard10 img,
+#productCard11 img {
+	max-width: 110px;
 }
 
 input[type="button"] {
@@ -492,7 +504,7 @@ input[type="button"] {
 	font-weight: bold;
 	border: none;
 	background-color: lightgrey;
-	margin-left: 50%;
+	margin-left: 40%;
 }
 
 /***********************
