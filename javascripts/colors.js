@@ -4,9 +4,9 @@
 */
 
 /*about page colors*/
-var aboutRedColors = ["#BF3F3F", "#F6BABA", "#FFFFFF", "#FF1414", "#C89C9C", "#CE4444", "#998989", "#FF7ABC", "#E81B82", "#E92F2F"]; 
+var productsRedColors = ["#BF3F3F", "#F6BABA", "#FFFFFF", "#FF1414", "#C89C9C", "#CE4444", "#998989", "#FF7ABC", "#E81B82", "#E92F2F"]; 
 // about page colors
-var productsBlueColors = ["#567CF9", "#5454ED", "#9793FF", "#86E3DE", "#60EFFF", "#32ADFF", "#BFE0FC", "#F1F2FD", "#0F00EF", "#567CF9"];
+var aboutBlueColors = ["#567CF9", "#5454ED", "#9793FF", "#86E3DE", "#60EFFF", "#32ADFF", "#BFE0FC", "#F1F2FD", "#0F00EF", "#567CF9"];
 // Contact page color
 var contactsGreenColors = ["#F1F2FD", "#0B9C17", "#2EEF7E", "#AFFCA0", "#9EBE8C", "#B8C2B7", "#CBF9CF", "#00F420", "#126E0C", "#FFFFFF"];
 // home page colors
@@ -23,8 +23,8 @@ function combineColors(colorArray) {
 		combinedColors.push(colorArray[color]);
 	}
 }
-combineColors(aboutRedColors);
-combineColors(productsBlueColors);
+combineColors(productsRedColors);
+combineColors(aboutBlueColors);
 combineColors(contactsGreenColors);
 console.log(combinedColors.length);
 
@@ -46,7 +46,7 @@ var mainContentHeight = mainContent.clientHeight;
 var heightMinusFooterAndMargin = (mainContentHeight - 125 -74.5);
 var mainContentHeightRemainder = (heightMinusFooterAndMargin % 10); 
 
-var sidebarHeight = (heightMinusFooterAndMargin - mainContentHeightRemainder);
+var sidebarHeight = (mainContentHeight - 105);
 console.log("Main content height: ", mainContentHeight, "Main content remainder: ", mainContentHeightRemainder, "Sidebar height: ", sidebarHeight);
 
 //Create counter to keep track of stacking
@@ -84,8 +84,8 @@ var createSidebarBlocks = function(sidebarName) {
     		var divWidth = sidebarBlockWidth[divWidthIndex];
     		 //get random color
     		var randomCombinedColor = getRandomInt(0, combinedColors.length - 1);
-            var randomAboutColor = getRandomInt(0, aboutRedColors.length - 1);
-            var randomProductsColor = getRandomInt(0, productsBlueColors.length - 1);
+            var randomProductsColor = getRandomInt(0, productsRedColors.length - 1);
+            var randomAboutColor = getRandomInt(0, aboutBlueColors.length - 1);
             var randomContactsColor = getRandomInt(0, contactsGreenColors.length - 1);
 
     		//create div to go in sidebar
@@ -101,7 +101,16 @@ var createSidebarBlocks = function(sidebarName) {
     		sidebarDiv.style.height = divHeight + "px";
     		sidebarDiv.style.width = divWidth + "px";
     		//assign background color
-    		sidebarDiv.style.backgroundColor = combinedColors[randomCombinedColor];
+            var title = document.title;
+            if (title === "Badass Blocks | Home") {
+        		sidebarDiv.style.backgroundColor = combinedColors[randomCombinedColor];  
+            } else if (title === "Badass Blocks | About Us") {
+                sidebarDiv.style.backgroundColor = aboutBlueColors[randomAboutColor];  
+            } else if (title === "Badass Blocks | Contact") {
+                sidebarDiv.style.backgroundColor = contactsGreenColors[randomContactsColor];  
+            } else if (title === "Badass Blocks | Products") {
+                sidebarDiv.style.backgroundColor = productsRedColors[randomProductsColor];  
+            }
 
     		//append block to sidebar
     		newSidebar.appendChild(sidebarDiv);
